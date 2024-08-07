@@ -53,3 +53,25 @@ generic noise in traffic
 
 
 ![image](https://github.com/user-attachments/assets/ea98a7c9-cff4-4def-b6f3-627c251a033b)
+
+# Result & Inference
+**Feature Extraction with Spectrograms:** By transforming audio
+signals into visual representations known as spectrograms, you
+captured important audio features such as frequency and time patterns.
+This approach aids in revealing nuanced details and characteristics of
+emergency and non-emergency audio samples.
+
+**LSTM Model for Sequence Analysis:** The Long Short-Term
+Memory (LSTM) network, a type of recurrent neural network (RNN),
+excels in handling sequential data like audio signals. Its ability to
+remember and process information over long time intervals allows the
+model to effectively differentiate between emergency and
+non-emergency audio samples.
+
+**High Accuracy in Classification:** Combining the spectrogram
+feature extraction with the LSTM model achieved high accuracy in
+classifying audio samples. The spectrograms provided the model with
+clear, detailed inputs, while the LSTM's sequence processing
+capabilities enabled precise analysis, resulting in successful
+identification of emergency and non-emergency audio samples.
+
