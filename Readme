@@ -1,6 +1,0 @@
-In this project, we explore audio classification techniques with a vehicular noise dataset to identify time-critical emergency vehicles approaching potential areas 
-of congestion, like junctions, to ease the congestion.
-The objective of this project is to build a model that will be able to distinguish between the sound of the sirens, the emergency vehicles, and the sound generated 
-by the other vehicles.
-This project follows two main techniques, them being time domain analysis and frequency domain analysis. The classification is done
-using convolutional neural networks (CNN) and long-short-term memory (LSTM).
